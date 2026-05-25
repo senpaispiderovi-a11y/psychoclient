@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "psychoclient",
+  "version": "1.0.0",
+  "name": "Psycho Client",
+  "description": "Feature-rich Fabric client with FPS boost, motion blur, and Lunar Client features.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.psycho.client.PsychoClient"]
+  },
+  "mixins": ["psychoclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11"
+  }
+}
