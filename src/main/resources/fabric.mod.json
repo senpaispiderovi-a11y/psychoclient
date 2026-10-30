@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "psycho_client",
+  "version": "${version}",
+  "name": "PSYCHO CLIENT",
+  "description": "A lightweight Feather-inspired client-side GUI and HUD for Minecraft 1.21.11.",
+  "authors": ["PSYCHO CLIENT"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.psycho.client.PsychoClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
